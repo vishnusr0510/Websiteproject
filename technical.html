@@ -1,74 +1,213 @@
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="style1.css">
-<title>Technical-Event-EPSILON2K25</title>
-    <link rel="icon" href="epsilon logo.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-<!-- EPSILON LOGO SECTION -->
-<div class="text-center my-5">
-    <img src="epsilon2k25logo.png" style="max-width: 150px;">
-    <h1>EPSILON2K25</h1>
-</div>
-<hr>
-<!-- EVENT SECTION START -->
-<div class="container text-center">
-    <h1>TECHINICAL EVENTS</h1>
-    <div class="row mt-4">
-        <div class="col-md-5 mb-4">
-            <img src="technical.jpg" class="img-fluid" alt="Technical Event">
-            <div class="event-content">
-                <h4>Electroquest</h4>
-                <span>
-                    A technical symposium is an event organized by educational institutions to provide a platform for students to showcase their technical skills, innovation, and knowledge. It includes paper presentations, project exhibitions, coding contests, workshops, and technical events, fostering learning, collaboration, and industry interaction.
-                </span>
-                <br>
-                <a href="technical.html" class="btn btn-primary mt-2">REGISTER</a>
+    <link rel="stylesheet" href="poster.css">
+    <link rel="stylesheet" href="technical.css">
+    <link rel="icon" href="epsilon logo.png">
+    <title>EPSILON2K25</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">EPSILON2K25</a>
+        <nav>
+            <a href="varun.html" class="active"> Home</a>
+            <a href="poster.html" >Events</a> 
+            <a href="varun2.html" >About</a>    
+        </nav>
+        <div class="Navbar-menu"id="show">
+            <h1><i class="fa-sharp fa-solid fa-bars"></i></h1>
+        </div>
+        <div class="side-navbar" id="side">
+            <h1 style="text-align: right;" id="xmark"><i class="fa-solid fa-xmark"></i></h1>
+            <div class="side-navbar-link">
+                <h1 class="side-navbar-links"><a href="varun.html">Home</a></h1>
+                <h1 class="side-navbar-links"><a href="poster.html">Events</a></h1>
+                <h1 class="side-navbar-links"><a href="varun2.html">About</a></h1>
             </div>
         </div>
-
-        <div class="col-md-5 mb-4">
-            <img src="technical.jpg" class="img-fluid" alt="Non-Technical Event">
-            <div class="event-content">
-                <h4>SPICE – The Ultimate Circuit Debugging Challenge!</h4>
-                <span>SPICE – The Ultimate Circuit Debugging Challenge! Test your knowledge of electronics, assemble circuits from scratch, and troubleshoot faults under pressure. Showcase your skills, compete with the best, and emerge as the ultimate electronics expert!
-                    </span>
-                <br>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSewmyy3p_CzDAtEiBrJbCL7cacUYzulti7m1zfblDgGwx63fQ/viewform?usp=header" class="btn btn-primary mt-2">REGISTER</a>
-            </div>
-        </div>
-        <div class="col-md-5 mb-4">
-            <img src="technical.jpg" class="img-fluid" alt="Non-Technical Event">
-            <div class="event-content">
-                <h4>Escape the Circuit</h4>
-                <span>
-                    A Non-Technical Symposium is an event that focuses on fun, creativity, and skill-based activities rather than core technical knowledge. It includes events like IPL Auction, Quiz, Debate, Treasure Hunt, Gaming, and Creative Arts, encouraging teamwork, leadership, and problem-solving in an engaging and competitive environment.
-                </span>
-                <br>
-                <a href="#" class="btn btn-primary mt-2">REGISTER</a>
-            </div>
-        </div>
-        <div class="col-md-5 mb-4">
-            <img src="technical.jpg" class="img-fluid" alt="Non-Technical Event">
-            <div class="event-content">
-                <h4>Sparkthesis</h4>
-                <span>A technical presentation event where participants, either solo or in pairs, present on trending technologies, advancements, and future innovations that could shape the world—all within a 10-minute limit.
-                    </span>
-                <br>
-                <a href="#" class="btn btn-primary mt-2">REGISTER</a>
-            </div>
-        </div>
-        <center>
-        <div class="col-md-5 mb-4">
-            <img src="technical.jpg" class="img-fluid" alt="Non-Technical Event">
-            <div class="event-content">
-                <h4>Inventx</h4>
-                <span>A high-energy tech program designed to spark innovation and fuel entrepreneurial minds! Dive into a creative, fun-filled environment where groundbreaking ideas come to life, connecting aspiring founders with the tools and mentorship needed to launch successful startups. </span>
-                <br>
-                <a href="#" class="btn btn-primary mt-2">REGISTER</a>
-            </div>
-        </div>
-    </center>
+    </header>
+    <div class="tittle" id="tech">
+        <h3>TECHNICAL EVENTS</h2>
     </div>
+    <div class="box-row">
+    <div class="box-col">
+        <img src="WhatsApp Image 2025-03-28 at 19.21.29_c663f535.jpg">
+        <h3>ELECTROQUEST</h3>
+        <!--<p>A thrilling treasure hunt-themed engineering challenge where teams troubleshoot and complete circuits to decode hidden signals. Participants will solve clues to assemble a working receiver and uncover the final signal. This event tests problem-solving, teamwork, and creativity. Open to all departments, with challenges designed for both technical and non-technical participants.</p>-->
+        <button class="btn" onclick="show5()"><a style="text-decoration: none;">EXPLORE</a></button>
+    </div>
+    <div class="box-col">
+        <img src="sparkthesis (1).png">
+        <h3>SPARKTHESIS</h3>
+        <!--<p>A technical presentation event where participants, either solo or in pairs, present on trending technologies, advancements, and future innovations that could shape the world—all within a 10-minute limit.</p>-->
+        <button class="btn" onclick="show4()"><a style="text-decoration: none;">EXPLORE</a></button>
+    </div>
+    <div class="box-col">
+        <img src="Escape circuit.png">
+        <h3>ESCAPE CIRCUIT</h3>
+        <!--<p>A technical room where participants find themselves trapped in a simulated power facility, they must solve the given series of electrical circuits to escape the room. Each circuit  tests their  knowledge of electrical components, logic gates, and troubleshooting skills, requiring quick thinking and teamwork.</p>-->
+       <button class="btn" onclick="show3()"><a on style="text-decoration: none;">EXPLORE</a></button>
+    </div>
+    <div class="box-col">
+        <img src="INVENTX (4).png">
+        <h3>INVENTEX</h3>
+        <!--<p>A dynamic tech program igniting innovative ideas for entrepreneurship and startups in a fun-filled environment!</p>-->
+        <button class="btn"  onclick="show2()"><a style="text-decoration: none;">EXPLORE</a></button>
+    </div>
+    <div class="box-col">
+        <img src="SPICE (2).png">
+        <h3>SPICE</h3>
+        <!--<p>The Ultimate Circuit Debugging Challenge!
+            First round is a General Quiz, where participants will test their knowledge      of electronics and circuits.
+         Second round is Circuit Assembly, where participants will be given a circuit diagram and components to build a working circuit.
+         Third round is Circuit Debugging, where participants must find and fix faults in a given circuit within a time limit.
+          Showcase your skills, compete with the best, and emerge as the ultimate    electronics expert!
+         </p>-->
+         <button class="btn" onclick="show()" ><a style="text-decoration: none;">EXPLORE</a></button>
+    </div>
+    </div>
+    <div class="pop-overlay"></div>
+    <div class="popupbook" style="margin-left: 13%;" >
+                <h1 style="text-transform: uppercase;">
+                    SPICE
+                </h1>
+                <div>
+                <h2><i class='fa fa-info-circle'></i> Description</h2>
+                <p>The competition features three rounds: a General Quiz to test electronics and circuits knowledge, Circuit Assembly to build a working circuit from a given diagram, and Circuit Debugging to find and fix faults within a time limit—showcase your skills, compete with the best, and emerge as the ultimate electronics expert!.</p></div>
+               <div class="Coordinator">
+                  <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                  <p></p>
+                  <p>Mukesh Kumar S.P-9884541498</p>
+                </div>
+               <div class="venue">
+                    <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                    <p>LIC Lab,Main Block,Ground floor</p>
+                </div>
+                <div class="time">
+                   <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                   <p>Start At: 10A.M</p>
+                </div>
+                <form>
+                    <button class="popupbutton" id="apopupbutton" id="work2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSewmyy3p_CzDAtEiBrJbCL7cacUYzulti7m1zfblDgGwx63fQ/viewform?usp=header">Register Now</a></button>
+                    <button class="popupbutton" id="cpopupbutton" onclick="cancel()">Close</button>
+                </form>
+                </div>
+                <div class="pop-overlay" id="pop-overlay2"></div>
+                <div class="popupbook" id="popupbook2"  style="margin-left: 13%;">
+                    <h1 style="text-transform: uppercase;">
+                        INVENTEX
+                    </h1>
+                    <div>
+                    <h2><i class='fa fa-info-circle'></i> Description</h2>
+                    <p>A dynamic tech program igniting innovative ideas for entrepreneurship and startups in a fun-filled environment!</p></div>
+                   <div class="Coordinator">
+                      <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                      <p></p>
+                      <p>Vigneswari Jaya-76959 04608</p>
+                    </div>
+                   <div class="venue">
+                        <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                        <p>PE LAB,Main Block,1st floor</p>
+                    </div>
+                    <div class="time">
+                       <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                       <p>Start At: 10A.M</p>
+                    </div>
+                    <form>
+                        <button class="popupbutton" id="apopupbutton" id="work2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdAQA9ZmA4FbWi2ScokYqAJ4afhIjbHlFdEnrQ0AbU0gyZ0zg/viewform?usp=header">Register Now</a></button>
+                        <button class="popupbutton" id="cpopupbutton" onclick="cancel2()">Close</button>
+                    </form>
+                </div>
+                    <div class="pop-overlay" id="pop-overlay3"></div>
+                    <div class="popupbook" id="popupbook3" style="margin-left: 13%; top: 30%;">
+                        <h1 style="text-transform: uppercase;">
+                            ESCAPE CIRCUIT
+                        </h1>
+                        <div>
+                        <h2><i class='fa fa-info-circle'></i> Description</h2>
+                        <p>A technical room where participants find themselves trapped in a simulated power facility, they must solve the given series of electrical circuits to escape the room. Each circuit  tests their  knowledge of electrical components, logic gates, and troubleshooting skills, requiring quick thinking and teamwork.</p></div>
+                       <div class="Coordinator">
+                          <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                          <p></p>
+                          <p>Keerthana-802907854</p>
+                        </div>
+                       <div class="venue">
+                            <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                            <p>ECE LAB,Main Block,1st floor</p>
+                        </div>
+                        <div class="time">
+                           <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                           <p>Start At: 10A.M</p>
+                        </div>
+                        <form>
+                            <button class="popupbutton" id="apopupbutton" id="work2"><a href="https://docs.google.com/forms/d/e/1FAIpQLScN2YWUFvOjesKlYB9_ifKiTk1Ykab7JY39feMTHyH1UlZuTQ/viewform?usp=header">Register Now</a></button>
+                            <button class="popupbutton" id="cpopupbutton" onclick="cancel3()">Close</button>
+                        </form>
+                        </div>
+                        <div class="pop-overlay" id="pop-overlay4"></div>
+                        <div class="popupbook"id="popupbook4" style="margin-left: 13%;" >
+                            <h1 style="text-transform: uppercase;">
+                                SPARKTHESIS
+                            </h1>
+                            <div>
+                            <h2><i class='fa fa-info-circle'></i> Description</h2>
+                            <p>A technical presentation event where participants, either solo or in pairs, present on trending technologies, advancements, and future innovations that could shape the world—all within a 10-minute limit.</p></div>
+                           <div class="Coordinator">
+                              <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                              <p></p>
+                              <p>Santhiya.M-802907854</p>
+                            </div>
+                           <div class="venue">
+                                <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                                <p>EEE CR4,Main Block,1st floor</p>
+                            </div>
+                            <div class="time">
+                               <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                               <p>Start At: 10A.M</p>
+                            </div>
+                            <form>
+                                <button class="popupbutton" id="apopupbutton" id="work2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKz5IkvsHQz8kWX4QvORxI24I506e9IP2enHopnQqlvVxsHA/viewform?usp=header">Register Now</a></button>
+                                <button class="popupbutton" id="cpopupbutton" onclick="cancel4()">Close</button>
+                            </form>
+                            </div>
+                            <div class="pop-overlay" id="pop-overlay5"></div>
+                        <div class="popupbook" id="popupbook5" style="margin-left: 13%;">
+                            <h1 style="text-transform: uppercase;">
+                                ELECTROQUEST
+                            </h1>
+                            <div>
+                            <h2><i class='fa fa-info-circle'></i> Description</h2>
+                            <p>A technical room where participants find themselves trapped in a simulated power facility, they must solve the given series of electrical circuits to escape the room. Each circuit  tests their  knowledge of electrical components, logic gates, and troubleshooting skills, requiring quick thinking and teamwork.</p></div>
+                           <div class="Coordinator">
+                              <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                              <p></p>
+                              <p>Aadith Dilipan-63747 75667</p>
+                            </div>
+                           <div class="venue">
+                                <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                                <p>ECE LAB,Main Block,1st floor</p>
+                            </div>
+                            <div class="time">
+                               <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                               <p>Start At: 10A.M</p>
+                            </div>
+                            <form>
+                                <button class="popupbutton" id="apopupbutton" id="work2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdnCiRMaFJdcSlUZZd1AsWSnzvJauh7_fv9EMUZPBAkk6z8Xw/viewform?usp=header">Register Now</a></button>
+                                <button class="popupbutton" id="cpopupbutton" onclick="cancel5()">Close</button>
+                            </form>
+                            </div>
+    
+    <center>
+        <button class="btn"><a href="poster.html">&#8592Back</a></button>
+    </center>
+    <hr>
+    <br>
+    <script src="varun.js"></script>
+    <script src="register.js"></script>
+    <script src="techreg.js"></script>
+</body>
+</html>
